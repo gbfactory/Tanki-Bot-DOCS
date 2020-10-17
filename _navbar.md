@@ -1,3 +1,3 @@
 - [Tanki Bot](https://tankibot.gbfactory.net/)
-- [Invite](#)
-- [Discord](#)
+- [Invite](https://discordapp.com/oauth2/authorize?client_id=477558712702337044&scope=bot&permissions=388160)
+- [Discord](https://discord.gg/cH8Tvbn)
