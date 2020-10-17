@@ -43,6 +43,18 @@
           '/': 'No results!'
         }
       },
+      plugins: [
+        function (hook, vm) {
+          hook.afterEach(function (html){
+            if(vm.route.path === '/'){
+              return html
+            }
+            return `${html}<hr>
+            For any issue or suggestion regarding the bot, you can conctact me on Discord (<code>gb_factory#5365</code>).<br>
+            To get support and chat with other players, join the official <a href="https://discord.gg/cH8Tvbn">Tanki Bot server</a>`
+          })
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
